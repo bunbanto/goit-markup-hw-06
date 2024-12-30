@@ -838,6 +838,7 @@ button {
 }
 .modal-overlay.is-open {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 .modal {
@@ -1158,8 +1159,8 @@ input:checked + .check-privacy > .span-check {
 }
 .mobile-contact-link {
   color: #434455;
-  /* color: #4d5ae5; */
 }
+
 .mobile-contact-list .mobile-contact-item:first-child {
   color: #4d5ae5;
 }
